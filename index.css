@@ -1,0 +1,78 @@
+body {
+  font-family: "Young Serif", serif;
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: hsl(0, 0%, 100%);
+  padding: 24px;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+.intro {
+  font-size: 15px;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 24px;
+}
+
+.prep-time {
+  background: hsl(330, 100%, 98%);
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.prep-time h2 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.prep-time ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.ingredients,
+.instructions {
+  margin-bottom: 24px;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 8px;
+}
+
+.instructions strong {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.nutrition {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid hsl(30, 10%, 34%);
+  margin-top: 12px;
+}
+
+.note {
+  color: hsl(24, 5%, 18%);
+  font-size: 14px;
+}
